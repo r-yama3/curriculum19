@@ -9,10 +9,10 @@ class Dog {
 
 	// Q3：Q1で作成した変数に「犬」を代入するコンストラクタを作成してください。
 	// Q4：Q2で作成した変数に引数を代入するコンストラクタを作成してください。
-	public Dog(String animal, int number) {
-		this.animal = animal = "犬";
-		this.number = number;
-	}
+	   public Dog(String animal, int number) {
+	        this.animal = "犬";   // animal引数は無視して "犬" を代入
+	        this.number = number;
+	    }
 
 	public void showInfo() {
 		System.out.println(animal);
